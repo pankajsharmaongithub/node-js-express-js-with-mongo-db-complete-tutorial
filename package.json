@@ -1,0 +1,22 @@
+{
+  "name": "gamezone",
+  "version": "1.1.1",
+  "description": "gamezone api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "ps",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "getmac": "^5.20.0",
+    "mongodb": "^5.0.1",
+    "nodemon": "^2.0.20",
+    "simple-node-logger": "^21.8.12",
+    "systeminformation": "^5.17.9"
+  }
+}
